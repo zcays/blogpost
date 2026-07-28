@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlogPost</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="eyebrow">blogpost</p>
+      <h1>Thoughts, stories, and ideas.</h1>
+      <p class="subtitle">
+        A simple blog-post style homepage with featured writing and recent posts.
+      </p>
+    </header>
+
+    <main>
+      <section class="featured" aria-labelledby="featured-title">
+        <h2 id="featured-title">Featured Post</h2>
+        <article class="card">
+          <p class="meta">July 28, 2026 · 5 min read</p>
+          <h3>How to Build a Clean, Readable Blog Layout</h3>
+          <p>
+            Learn a practical approach for designing a blog page that highlights
+            writing, improves readability, and stays fast.
+          </p>
+          <a href="#" aria-label="Read featured post">Read post →</a>
+        </article>
+      </section>
+
+      <section aria-labelledby="recent-title">
+        <h2 id="recent-title">Recent Posts</h2>
+        <div class="post-grid">
+          <article class="card">
+            <p class="meta">July 21, 2026 · 3 min read</p>
+            <h3>Writing Better Headlines for Your Posts</h3>
+            <p>Simple headline patterns to make your writing easier to discover.</p>
+            <a href="#" aria-label="Read headline writing post">Read post →</a>
+          </article>
+
+          <article class="card">
+            <p class="meta">July 15, 2026 · 4 min read</p>
+            <h3>A Minimal CSS System for Content-First Pages</h3>
+            <p>
+              A lightweight styling strategy focused on typography, spacing, and
+              visual hierarchy.
+            </p>
+            <a href="#" aria-label="Read minimal CSS post">Read post →</a>
+          </article>
+
+          <article class="card">
+            <p class="meta">July 7, 2026 · 6 min read</p>
+            <h3>How to Keep a Consistent Publishing Rhythm</h3>
+            <p>
+              A practical scheduling workflow that helps you publish quality posts
+              without burning out.
+            </p>
+            <a href="#" aria-label="Read publishing rhythm post">Read post →</a>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
