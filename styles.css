@@ -205,11 +205,21 @@ blockquote {
   border: 0;
 }
 .video-feature figcaption,
+.essay-photo figcaption,
 .research-graph figcaption {
   margin-top: 14px;
   color: var(--muted);
   font: 0.65rem/1.6 var(--mono);
   letter-spacing: 0.02em;
+}
+.essay-photo {
+  width: min(900px, calc(100vw - 48px));
+}
+.essay-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
 }
 .video-feature figcaption a,
 .citations-list a {
@@ -335,6 +345,7 @@ footer p { margin: 0; }
   .essay-body { padding: 58px 0 75px; font-size: 1.18rem; }
   .essay-body h3 { margin-top: 1.8em; }
   blockquote { font-size: 1.5rem; }
+  .essay-photo,
   .research-graph { width: calc(100vw - 28px); }
   .graph-stat { display: block; }
   .graph-stat-copy { margin-top: 20px !important; }
