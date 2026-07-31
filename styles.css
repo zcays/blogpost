@@ -213,8 +213,8 @@ blockquote {
   letter-spacing: 0.02em;
 }
 .essay-photo {
-  width: min(620px, 100%);
-  margin: 2.4em auto;
+  width: min(560px, 100%);
+  margin: 2.4em 0;
 }
 .essay-photo img {
   display: block;
