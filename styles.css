@@ -223,11 +223,14 @@ blockquote {
   border: 1px solid var(--line);
 }
 .video-feature figcaption a,
+.essay-photo figcaption a,
 .citations-list a {
   border-bottom: 1px solid var(--line);
 }
 .video-feature figcaption a:hover,
 .video-feature figcaption a:focus-visible,
+.essay-photo figcaption a:hover,
+.essay-photo figcaption a:focus-visible,
 .citations-list a:hover,
 .citations-list a:focus-visible {
   color: var(--accent);
@@ -235,6 +238,9 @@ blockquote {
 }
 .research-graph {
   width: min(900px, calc(100vw - 48px));
+}
+.perception-graph {
+  width: min(620px, calc(100vw - 48px));
 }
 .graph-stat {
   display: flex;
